@@ -1,0 +1,5 @@
+export enum DealFor {
+  PRODUCT = "PRODUCT",
+  CATEGORY = "CATEGORY",
+  SUB_CATEGORY = "SUB_CATEGORY",
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "104130b9-2377-4be1-8225-5accaf7ffa33",
+        safari_web_id:
+          "web.onesignal.auto.16bc3731-50fd-4ae0-bf69-b8ea0dbfb349",
+        notifyButton: {
+          enable: true,
+        },
+        allowLocalhostAsSecureOrigin: true
+      });
+      let externalUserId = "630205af3d68f50c5fc9edf7" // You will supply the external user id to the OneSignal SDK
+      let externalUserIdAuthHash = "9a176c7385a03710143e578a7f97d4de472c3a51a4fd7d05be5d00be9be43293"; // Identifier auth hash generated from your server
+    OneSignal.setExternalUserId(externalUserId, externalUserIdAuthHash);
+    OneSignal.showSlideddownPrompt({ force: true });
+    });
+    
+  </script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Welcome to one signal push notifications</h3>
+</body>
+
+</html>

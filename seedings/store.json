@@ -1,0 +1,56 @@
+{
+    "title": "Dominos",
+    "descrption": "The bith place of real pizza",
+    "image": {
+        "image_url": "http://das.com",
+        "image_id": "100452",
+        "image_path": "A path to the image"
+    },
+    "store_code": "E1058",
+    "contact_no1": "+917602746149",
+    "contact_no2": "+918972053436",
+    "contact_email": "snahashis@pietechsolution.com",
+    "currency_code": "USD",
+    "currency_symbol": "$",
+    "store_address": {
+        "address": "BTM layout",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "postal_code": "732101"
+    },
+    "store_location": {
+        "type": "Point",
+        "coordinates": [24.213, 87.91576]
+    },
+    "working_hours": [
+        {
+            "day_code": 1,
+            "day_name": "Monday",
+            "timings": [
+                {
+                "slot": "6.00 to 22.00",
+                "open_time": "6.00",
+                "close_time": "22.00"
+                }
+            ]
+        }
+    ],
+    "store_type": "FRANCHISE",
+    "payment_type": "STRIPE",
+    "shipping_type": "STRIPE",
+    "delivery_type": "FLEXIBLE",
+    "tax_type": "EXCLUDED",
+
+    "tax_name": "GST",
+    "tax_amount": "10",
+    "minimum_order_amount": "12",
+
+    "vendor_id": "630205af3d68f50c5fc9edf7",
+    
+    "delivery_charge_per_km": "4",
+    "delivery_coverage_in_km": "2",
+    "fix_delivery_charge": "",
+    "mininum_order_amount_for_free_delivery": ""
+    
+}

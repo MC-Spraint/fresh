@@ -1,0 +1,16 @@
+// Relations
+
+
+categories: Types.ObjectId[];
+sub_categories: Types.ObjectId[];
+variant_groups: Types.ObjectId[];
+variants: Types.ObjectId[];
+add_on_categories: Types.ObjectId[];
+add_on_products: Types.ObjectId[];
+products: Types.ObjectId[];
+reviews: Types.ObjectId[];
+deals: Types.ObjectId[];
+
+_id: string;
+createdAt: Date;
+updatedAt: Date;

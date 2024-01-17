@@ -1,0 +1,10 @@
+{
+    "address": "Malda",
+    "postal_code": 732101,
+    "mobile": "+917602746149",
+    "address_type": "OTHER",
+    "location": {
+        "type": "Point", 
+        "coordinates":[25.0048, 88.14901 ]
+    }
+}

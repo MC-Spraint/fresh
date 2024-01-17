@@ -1,0 +1,12 @@
+{
+    "title": "Top Deal",
+    "description": "Summer Deal",
+    "image": {
+        "file_url": "https://sample.com/car.jpg",
+        "file_id": "012aftykt",
+        "file_path": "some..path..."
+    },
+    "deal_for": "PRODUCT",
+    "discount_in_percent": 20,
+    "product_id": "63eff8ea2db01780f4e85c77"
+}

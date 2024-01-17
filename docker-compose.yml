@@ -1,0 +1,12 @@
+version: "3"
+services:
+  server:
+    container_name: fresh_api
+    build:
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/home/fresh
+      - /home/fresh/node_modules

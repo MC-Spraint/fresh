@@ -1,0 +1,25 @@
+Modules to implement
+order -> for user
+subscription -> for vendor
+service -> for vendor
+order, cart, subscriptio, service -> schema
+chat
+cuisines
+language
+page
+sequence
+rent
+services
+
+To build image 
+$ docker build -t fresh .
+To start container 
+$ docker run -it -p 9000:4000 fresh
+
+new_ideas
+________________________________________________________________
+crown
+badge
+level
+xp
+user can earn points by getting ratings, sellng, 
