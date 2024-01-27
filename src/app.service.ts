@@ -15,6 +15,7 @@ export class AppService {
     private readonly stripe: StripeService,
     private readonly notificationService: OneSignalService,
   ) {}
+
   public async welcomeUser(user: LoggedInUser): Promise<string> {
     const name = user.name.split(" ")[0];
     return `Welcome ${name ? name : `buddy`}!`;

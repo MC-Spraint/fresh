@@ -32,6 +32,7 @@ import { OrderModule } from "./orders/order/order.module";
 import { OrderStatusHistoryModule } from "./orders/order_status_history/order-statu-history.module";
 import { TransactionHistoryModule } from "./orders/transaction_history/transaction-history.module";
 import { DeliveryPartnerModule } from "./delivery_partner/delivery-partner.module";
+import { ContactModule } from "./contact/contact.module";
 
 @Module({
   imports: [
@@ -61,6 +62,7 @@ import { DeliveryPartnerModule } from "./delivery_partner/delivery-partner.modul
     OrderStatusHistoryModule,
     TransactionHistoryModule,
     DeliveryPartnerModule,
+    ContactModule,
   ],
   controllers: [AppController],
   providers: [
